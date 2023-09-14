@@ -10,7 +10,7 @@ export const AddEvent = () => {
   const createEvent = async (event) => {
     try {
       const response = await fetch(
-        "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/events",
+        "https://react-advanced-project-ddd9b5152cef.herokuapp.com/events",
         {
           method: "POST",
           body: JSON.stringify(event),

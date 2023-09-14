@@ -6,10 +6,10 @@ import { Box, Flex, Checkbox, Text, HStack } from "@chakra-ui/react";
 
 export const loader = async () => {
   const eventsResponse = await fetch(
-    "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/events"
+    "https://react-advanced-project-ddd9b5152cef.herokuapp.com/events"
   );
   const categoriesResonse = await fetch(
-    "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/categories"
+    "https://react-advanced-project-ddd9b5152cef.herokuapp.com/categories"
   );
 
   const events = await eventsResponse.json();

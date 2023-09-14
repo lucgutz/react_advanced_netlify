@@ -2,7 +2,7 @@ import { useState } from "react";
 import { sendRequest } from "./SendRequest";
 import { Button, Box, Text, Checkbox, useToast } from "@chakra-ui/react";
 
-const ROOT_URL = "http://localhost:3000/";
+const ROOT_URL = "https://react-advanced-project-ddd9b5152cef.herokuapp.com/";
 
 export const EditCategories = ({ event }) => {
   const [categories, setCategories] = useState([]);

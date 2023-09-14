@@ -13,13 +13,13 @@ import {
 
 export const loader = async ({ params }) => {
   const eventResponse =
-    await fetch(`https://my-json-server.typicode.com/lucgutz/react_basics_netlify/events/${params.eventId}
+    await fetch(`https://react-advanced-project-ddd9b5152cef.herokuapp.com/events/${params.eventId}
   `);
   const categoriesResponse = await fetch(
-    "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/categories"
+    "https://react-advanced-project-ddd9b5152cef.herokuapp.com/categories"
   );
   const usersResponse = await fetch(
-    "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/users"
+    "https://react-advanced-project-ddd9b5152cef.herokuapp.com/users"
   );
 
   const event = await eventResponse.json();
