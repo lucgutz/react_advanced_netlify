@@ -80,7 +80,7 @@ export const EventsPage = () => {
               s
               fontSize="1.2rem"
             >
-              Have a look at our events! They are amazing!
+              Have a look at our events!
             </Text>
 
             <Box paddingTop={7}>
