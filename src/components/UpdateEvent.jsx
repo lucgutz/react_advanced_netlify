@@ -19,8 +19,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 
-const ROOT_URL =
-  "https://my-json-server.typicode.com/lucgutz/react_basics_netlify/";
+const ROOT_URL = "https://react-advanced-project-ddd9b5152cef.herokuapp.com/";
 
 export const UpdateEvent = ({ event }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
